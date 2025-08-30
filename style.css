@@ -1,0 +1,20 @@
+.nav{
+    position: relative;
+}
+.nav::after{
+    content: "";
+    background: black;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 3px;
+    transform: scaleX(0);
+    transform-origin:bottom right ;
+    transition: transform 0.5s;
+}
+.nav:hover::after{
+    transform: scaleX(1);
+    transform-origin:bottom left ;
+
+}
