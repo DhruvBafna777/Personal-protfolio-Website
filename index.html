@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="/cdn/src/utilities/style.css">
+    <title>Dhruv Bafna Protfolio</title>
+</head>
+
+<body class=" bg-[#0F172A] overflow-x-hidden">
+    <nav
+        class="fixed top-0 left-0 w-full z-50 bg-gradient-to-r from-indigo-700 via-violet-700 to-fuchsia-700 text-slate-100 shadow-md border-b border-indigo-400/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-2xl font-bold tracking-wide">
+                        Dhruv <span class="text-amber-400 drop-shadow-sm">BAFNA</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-6 text-lg font-medium">
+                    <a href="#home" class="hover:text-yellow-300 transition duration-300">Home</a>
+                    <a href="#projects" class="hover:text-yellow-300 transition duration-300">Projects</a>
+                    <a href="#about" class="hover:text-yellow-300 transition duration-300">About</a>
+                    <a href="#Contact" class="hover:text-yellow-300 transition duration-300">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="focus:outline-none">
+                        <svg class="w-8 h-8 text-slate-100" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-gradient-to-b from-indigo-800 via-violet-800 to-fuchsia-800 text-center px-6 py-4 space-y-4">
+            <a href="#home" class="block text-lg hover:text-yellow-300">Home</a>
+            <a href="#about" class="block text-lg hover:text-yellow-300">About</a>
+            <a href="#skills" class="block text-lg hover:text-yellow-300">Skills</a>
+            <a href="#projects" class="block text-lg hover:text-yellow-300">Projects</a>
+            <a href="#contact" class="block text-lg hover:text-yellow-300">Contact</a>
+        </div>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="text-center" id="home">
+        <div class="mt-20 sm:mt-32 w-[90vw] max-w-5xl mx-auto">
+            <!-- Heading -->
+            <h1 class="sm:mt-12  text-lg sm:text-2xl md:text-4xl font-extrabold text-white leading-tight">
+                I Do Code and <br />
+                Make Content <span class="text-orange-500">About It!</span>
+            </h1>
+
+            <p class="mt-8 sm:mt-12 text-lg sm:text-2xl md:text-4xl font-medium text-white">
+                Hey, My Name is Dhruv Bafna and I am a passionate
+            </p>
+
+            <span id="element" class="block mt-4 text-orange-500 sm:mt-12 text-lg sm:text-2xl md:text-4xl font-semibold"></span>
+
+            <div class="sm:mt-16 flex flex-wrap justify-center gap-6">
+                <a href="https://drive.google.com/file/d/1Hst3kSfM9UKLaOwWAkTL3OfdDf_eFqoG/view?usp=drive_link">
+                    <button
+                        class="text-white px-3 sm:px-8 py-3 sm:py-4 bg-blue-600 hover:bg-blue-700 transition-all hover:ring-4 hover:ring-blue-400/50 font-semibold rounded-lg sm:text-base text-sm shadow-md">
+                        Download CV
+                    </button>
+                </a>
+                <a href="https://github.com/DhruvBafna777" target="_blank">
+                    <button
+                        class="text-white px-3 sm:px-8 py-3 sm:py-4 bg-gray-800 hover:bg-gray-900 transition-all hover:ring-4 hover:ring-blue-400/50 font-semibold rounded-lg sm:text-base text-sm shadow-md">
+                        Visit GitHub
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Divider -->
+        <div class="border-t-2 border-gray-300 w-[90%] mx-auto mt-16 rounded"></div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="mt-16 w-[90vw] max-w-7xl mx-auto" id="projects">
+        <h2 class="text-center font-extrabold text-3xl sm:text-5xl text-white mb-16 tracking-tight">
+            PROJECTS
+        </h2>
+
+        <div class="grid gap-10 sm:grid-cols-2 md:grid-cols-3 ">
+            <!-- Project Card Template -->
+            <div
+                class="bg-white border border-gray-300 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300">
+                <img class="w-full h-48 object-cover rounded-t-2xl"
+                    src="../images/gettyimages-172759126-612x612.jpg"
+                    alt="Indian Stock Analysis" />
+                <div class="p-5">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Indian Stock Analysis</h3>
+                    <p class="text-gray-600 text-sm mb-5">
+                        Analyze Indian stocks and predict future prices using Linear Regression & Grok’s LLaMA. Built
+                        with Python and Streamlit.
+                    </p>
+                    <a href="https://github.com/DhruvBafna777/AI-Indian-Stock-Analysis" target="_blank"
+                        class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg transition duration-200">
+                        View Project
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="bg-white border border-gray-300 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300">
+                <img class="w-full h-48 object-cover rounded-t-2xl"
+                    src="../images/post-1653903565-image_file-user_id_612.jpg"
+                    alt="Student Performance Analysis" />
+                <div class="p-5">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Student Performance Analysis</h3>
+                    <p class="text-gray-600 text-sm mb-5">
+                        ML dashboard to predict student grades using Random Forest. Identify weak students early. Built
+                        with Python & Streamlit.
+                    </p>
+                    <a href="https://github.com/DhruvBafna777/Student-Performance-Analysis-and-Prediction" target="_blank"
+                        class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg transition duration-200">
+                        View Project
+                    </a>
+                </div>
+            </div>
+
+            <div
+                class="bg-white border border-gray-300 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300">
+                <img class="w-full h-48 object-bottom-right rounded-t-2xl"
+                    src="../images/1736859686572_will-used-car-prices-drop-in-2025-in-eu-4_01JHJEF5XBA4HDJSK3GRDKT1TE.jpg"
+                    alt="Car Price Prediction" />
+                <div class="p-5">
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Car Price Prediction</h3>
+                    <p class="text-gray-600 text-sm mb-5">
+                        Predict used car prices with Linear Regression. Enter details and get instant predictions. Built
+                        with Python & Scikit-learn.
+                    </p>
+                    <a href="https://github.com/DhruvBafna777/CodeAlpha_Car_Price_Prediction" target="_blank"
+                        class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-lg transition duration-200">
+                        View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="border-t-2 border-gray-300 w-[90%] mx-auto mt-16 rounded"></div>
+
+    <!-- About Section -->
+    <section class="mt-16 w-[85vw] max-w-4xl mx-auto" id="about">
+        <h2 class="text-3xl sm:text-5xl font-extrabold text-center mb-14 text-white">About</h2>
+
+        <div class="grid gap-8">
+            <!-- Skill Block Template -->
+            <!-- Python -->
+            <div>
+                <div class="flex items-center gap-4 mb-2">
+                    <img class="h-8" src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
+                        alt="Python Icon" />
+                    <span class="text-lg sm:text-xl font-semibold text-white">Python</span>
+                    <span class="ml-auto text-sm font-medium text-white">70%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div class="bg-green-500 h-3 rounded-full" style="width: 70%;"></div>
+                </div>
+            </div>
+
+            <!-- NumPy -->
+            <div>
+                <div class="flex items-center gap-4 mb-2">
+                    <img class="h-8" src="https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png&color=000000"
+                        alt="Numpy Icon" />
+                    <span class="text-lg sm:text-xl font-semibold text-white">NumPy</span>
+                    <span class="ml-auto text-sm font-medium text-white">60%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div class="bg-blue-500 h-3 rounded-full" style="width: 60%;"></div>
+                </div>
+            </div>
+
+            <!-- Pandas -->
+            <div>
+                <div class="flex items-center gap-4 mb-2">
+                    <img class="h-8" src="https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000"
+                        alt="Pandas Icon" />
+                    <span class="text-lg sm:text-xl font-semibold text-white">Pandas</span>
+                    <span class="ml-auto text-sm font-medium text-white">65%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div class="bg-purple-500 h-3 rounded-full" style="width: 65%;"></div>
+                </div>
+            </div>
+
+            <!-- Matplotlib -->
+            <div>
+                <div class="flex items-center gap-4 mb-2">
+                    <img class="h-8" src="https://img.icons8.com/?size=100&id=TkX1totjFmAD&format=png&color=000000"
+                        alt="Matplotlib Icon" />
+                    <span class="text-lg sm:text-xl font-semibold text-white">Matplotlib</span>
+                    <span class="ml-auto text-sm font-medium text-white">55%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div class="bg-yellow-500 h-3 rounded-full" style="width: 55%;"></div>
+                </div>
+            </div>
+
+            <!-- Seaborn -->
+            <div>
+                <div class="flex items-center gap-4 mb-2">
+                    <img class="h-8" src="https://img.icons8.com/?size=100&id=UC01sKb4gLlw&format=png&color=000000"
+                        alt="Seaborn Icon" />
+                    <span class="text-lg sm:text-xl font-semibold text-white">Seaborn</span>
+                    <span class="ml-auto text-sm font-medium text-white">50%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div class="bg-blue-700 h-3 rounded-full" style="width: 50%;"></div>
+                </div>
+            </div>
+
+            <!-- Power BI -->
+            <div>
+                <div class="flex items-center gap-4 mb-2">
+                    <img class="h-8" src="https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000"
+                        alt="Power BI Icon" />
+                    <span class="text-lg sm:text-xl font-semibold text-white">Power BI</span>
+                    <span class="ml-auto text-sm font-medium text-white">60%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-3">
+                    <div class="bg-indigo-500 h-3 rounded-full" style="width: 60%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="border-t-2 border-gray-300 w-[90%] mx-auto mt-16 rounded"></div>
+
+    <!-- Contact Section -->
+    <section class="mt-20 w-[85vw] max-w-4xl mx-auto" id="Contact">
+        <h2 class="text-3xl sm:text-5xl font-extrabold text-center text-white mb-6">Contact Us</h2>
+
+        <div class="flex flex-col items-center justify-center">
+            <form action="https://api.web3forms.com/submit" method="POST"
+                class="w-full flex flex-col gap-6 bg-blue-400 shadow-md p-6 sm:p-10 rounded-2xl border border-gray-300">
+                <input type="hidden" name="access_key" value="fe228ca2-d91e-4ded-9325-7ac9e819104b" />
+
+                <h3 class="text-xl sm:text-2xl font-semibold text-black text-center mb-4">Get In Touch</h3>
+
+                <input type="text" id="name" name="name" placeholder="Your Name" required
+                    class="p-3 rounded-lg border-2 border-black focus:border-blue-500 focus:outline-none w-full" />
+
+                <input type="email" id="email" name="email" placeholder="Your Email" required
+                    class="p-3 rounded-lg border-2 border-black focus:border-blue-500 focus:outline-none w-full" />
+
+                <textarea id="message" name="message" rows="5" placeholder="How can I help you?" required
+                    class="p-3 rounded-lg border-2 border-black focus:border-blue-500 focus:outline-none w-full"></textarea>
+
+                <button type="submit"
+                    class="bg-blue-700 hover:bg-blue-800 text-white font-medium rounded-lg px-6 py-2.5 transition duration-200 w-full sm:w-auto mx-auto">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="border-t-2 border-gray-300 w-[90%] mx-auto mt-16 rounded"></div>
+
+
+    <!-- footer Section -->
+    <footer class="bg-slate-900 mt-4 py-6 sm:py-10 text-white">
+        <div class="w-[85vw] max-w-6xl mx-auto text-center">
+            <p class="text-lg sm:text-2xl font-medium sm:font-semibold">
+                © 2025 MADE BY 🙋‍♂️ <span class="text-orange-500 font-bold">DHRUV BAFNA</span> WITH <span
+                    class="text-red-500 text-xl">❤️</span>
+            </p>
+            <div class="flex justify-center gap-6 mt-4 text-gray-300 text-xl">
+                <a href="https://github.com/DhruvBafna777" target="_blank"
+                    class="hover:text-white transition">GitHub</a>
+                <a href="mailto:jdhruv282@email.com" class="hover:text-white transition">Email</a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script>
+
+    let typed = new Typed('#element', {
+        strings: [' Data Science ', ' Data Analysis ', ' Machine Learning '],
+        typeSpeed: 50,
+        loop: true,
+    });
+    let menuToggle = document.querySelector('#mobile-menu');
+
+    menutoggle = () => {
+        menuToggle.classList.toggle('hidden');
+    };
+
+</script>
+
+</html>
